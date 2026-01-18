@@ -152,7 +152,7 @@ services:
         tag: "Username"
         keywords: "user username"
         url: "https://instantusername.com/"
-      - name: "Navaro"
+      - name: "Navarro"
         icon: "fa-solid fa-user"
         tag: "Username"
         keywords: "user username github"
