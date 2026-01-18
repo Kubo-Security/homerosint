@@ -316,7 +316,7 @@ services:
         icon: "fa-solid fa-sailboat"
         tag: "Boat"
         keywords: "boat bateau"
-        url: "https://nmeagen.org/
+        url: "https://nmeagen.org/"
       - name: "Carte Tchoo"
         icon: "fa-solid fa-train"
         tag: "Train"
