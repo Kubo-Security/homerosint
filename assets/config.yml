@@ -102,7 +102,7 @@ services:
         url: "https://keybase.io"
 
   - name: "Email"
-    icon: "fa-regular fa-at
+    icon: "fa-regular fa-at"
     items:
       - name: "Email Checker"
         icon: "fa-solid fa-at"
