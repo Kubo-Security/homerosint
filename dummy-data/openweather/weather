@@ -1,0 +1,43 @@
+{
+  "coord": {
+      "lon": 3.0586,
+      "lat": 50.633
+  },
+  "weather": [
+      {
+          "id": 800,
+          "main": "Clear",
+          "description": "clear sky",
+          "icon": "01d"
+      }
+  ],
+  "base": "stations",
+  "main": {
+      "temp": 287.38,
+      "feels_like": 286.76,
+      "temp_min": 286.38,
+      "temp_max": 287.71,
+      "pressure": 1019,
+      "humidity": 73
+  },
+  "visibility": 10000,
+  "wind": {
+      "speed": 3.09,
+      "deg": 30
+  },
+  "clouds": {
+      "all": 0
+  },
+  "dt": 1718867378,
+  "sys": {
+      "type": 2,
+      "id": 2011132,
+      "country": "FR",
+      "sunrise": 1718854500,
+      "sunset": 1718913826
+  },
+  "timezone": 7200,
+  "id": 2998324,
+  "name": "Lille",
+  "cod": 200
+}
