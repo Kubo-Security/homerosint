@@ -680,7 +680,7 @@ services:
         url: "https://www.aperisolve.com/"
       - name: "Exiftools"
         icon: "fa-solid fa-file-image"
-        keywords: "exif
+        keywords: "exif"
         tag: "Stegano"
         url: "https://exif.tools/" 
 
