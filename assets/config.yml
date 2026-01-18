@@ -37,7 +37,7 @@ stylesheet:
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "Username
+  - name: "Username"
     icon: "fa-regular fa-id-card"
     items:
       - name: "IdCrawl"
@@ -698,7 +698,7 @@ services:
         keywords: "photo picture location"
         tag: "IA"
         url: "https://chatgpt.com/g/g-brlHi7t2R-geoguessr-gpt"
-        
+
   - name: "Others"
     icon: "fa-solid fa-icons"
     items:
