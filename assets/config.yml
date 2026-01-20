@@ -694,7 +694,7 @@ services:
         tag: "Boat"
         keywords: "boat bateau ship"
         url: "https://www.vesselfinder.com/"
-      - name: "Milatary Ship"
+      - name: "Military Ship"
         icon: "fa-solid fa-anchor"
         tag: "Boat"
         keywords: "boat bateau ship miltary militaire"
