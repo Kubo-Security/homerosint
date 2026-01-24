@@ -23,6 +23,16 @@ columns: "3" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
 connectivityCheck: true # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example).
                         # You should set it to true when using an authentication proxy, it also reloads the page when a redirection is detected when checking connectivity.
 
+message:
+  title: Golden Rules
+  content: >
+    <div>
+      <p><strong>N°1</strong> : Si cela n'existe pas dans Google, essaie Bing et DuckDuckGo </p>
+      <p><strong>N°2</strong> : Les utilisateurs de vk.com ne sont pas les mêmes que vk.ru, comme pour mstdn.social et mastodon.social</p>
+      <p><strong>N°3</strong> : Si cela n'existe pas dans la wayback machine, essaie archive.is </p>
+      <p><strong>N°4</strong> : Toujours vérifier le texte alternatif (alt) des images </p>
+
+    </div>
 
 # Set the default layout and color scheme
 defaults:
@@ -482,10 +492,10 @@ services:
         keywords: "streetview map"
         url: "https://data.mashedworld.com/dualmaps/map.htm"
       - name: "Satellites.pro"
-        icon: "fa-solid fa-map-satellite"
+        icon: "fa-solid fa-satellite"
         tag: "Map"
         keywords: "satellite map"
-        url: "hhttps://satellites.pro/"
+        url: "https://satellites.pro/"
       - name: "Base militaires"
         icon: "fa-solid fa-jet-fighter"
         tag: "Military"
@@ -1022,3 +1032,17 @@ services:
         keywords: "tags peinture"
         tag: "Graffiti"
         url: "https://graffiti-database.com/"
+      - name: "Vocal Remover"
+        icon: "fa-solid fa-volume-high"
+        keywords: "audio isolation"
+        tag: "Audio"
+        url: "https://vocalremover.org/"
+      - name: "AbeBooks"
+        icon: "fa-solid fa-book"
+        keywords: "book livre auteur"
+        tag: "Book"
+        url: "https://www.abebooks.fr/"
+
+
+
+
