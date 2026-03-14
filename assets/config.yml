@@ -31,7 +31,7 @@ message:
       <p><strong>N°2</strong> : Les utilisateurs de vk.com ne sont pas les mêmes que vk.ru, comme pour mstdn.social et mastodon.social</p>
       <p><strong>N°3</strong> : Si cela n'existe pas dans la wayback machine, essaie archive.is </p>
       <p><strong>N°4</strong> : Toujours vérifier le texte alternatif (alt) des images </p>
-      <p><strong>N°4</strong> : Utiliser .patch sur github pour trouver les adresses mails </p>
+      <p><strong>N°5</strong> : Utiliser .patch sur github pour trouver les adresses mails </p>
     </div>
 
 # Set the default layout and color scheme
