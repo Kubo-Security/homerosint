@@ -116,11 +116,6 @@ services:
         tag: "Git"
         keywords: "email user username github"
         url: "https://github.com/mxrch/GitFive"
-      - name: "Keybase.io"
-        icon: "fa-solid fa-key"
-        keywords: "key pgp gpg"
-        tag: "Key"
-        url: "https://keybase.io"
 
   - name: "Email"
     icon: "fa-regular fa-at"
@@ -1035,6 +1030,21 @@ services:
         url: "https://www.metacrawler.com/"
         tag: "Meta"
 
+  - name: "GPG / PGP"
+    icon: "fa-solid fa-key"
+    items:
+      - name: "Keybase.io"
+        icon: "fa-solid fa-key"
+        keywords: "key pgp gpg"
+        tag: "Key"
+        url: "https://keybase.io"
+      - name: "Key /message decoder"
+        icon: "fa-solid fa-key"
+        keywords: "key pgp gpg"
+        tag: "Key"
+        url: "https://cirw.in/gpg-decoder"
+
+
   - name: "Others"
     icon: "fa-solid fa-icons"
     items:
@@ -1063,6 +1073,16 @@ services:
         keywords: "book livre auteur"
         tag: "Book"
         url: "https://www.abebooks.fr/"
+      - name: "I Know What You Download"
+        icon: "fa-solid fa-download"
+        keywords: "download p2p ip"
+        tag: "Peer"
+        url: "https://iknowwhatyoudownload.com/en/peer/"
+
+
+
+
+        
 
 
 
