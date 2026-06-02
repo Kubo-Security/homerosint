@@ -56,6 +56,11 @@ services:
         keywords: "user username nom prenom"
         tag: "Username"
         url: "https://www.idcrawl.com/"
+      - name: "Hippie Cat"
+        icon: "fa-solid fa-user"
+        keywords: "user username nom prenom"
+        tag: "Username"
+        url: "https://osint.hippie.cat/"
       - name: "Osint rocks"
         icon: "fa-solid fa-user"
         tag: "Username"
@@ -379,7 +384,11 @@ services:
         tag: "Occasion"
         keywords: "RS vente"
         url: "https://www.leboncoin.fr/"
-
+      - name: "Good Reads"
+        icon: "fa-solid fa-book"
+        tag: "Book"
+        keywords: "livres book"
+        url: "https://www.goodreads.com/"
 
 
   - name: "Reconnaissance faciale"
@@ -617,6 +626,11 @@ services:
         keywords: "web domain dns"
         url: "https://crt.sh/"
         tag: "DNS"
+      - name: "Subdomain Finder"
+        icon: "fa-solid fa-server"
+        keywords: "web domain dns"
+        url: "https://pentest-tools.com/information-gathering/find-subdomains-of-domain"
+        tag: "DNS"    
       - name: "DNS Dumpster"
         icon: "fa-solid fa-server"
         keywords: "web domain dns"
@@ -632,13 +646,22 @@ services:
         keywords: "web domain github"
         url: "https://github.com/smicallef/spiderfoot"
         tag: "Web"
+      - name: "Hippie Cat"
+        icon: "fa-solid fa-user"
+        keywords: "web domain subdomain ip"
+        tag: "Username"
+        url: "https://osint.hippie.cat/"
       - name: "Mxtoolbox"
         icon: "fa-solid fa-envelope"
         keywords: "web domain mx"
         url: "https://mxtoolbox.com"
-        tag: "Web"
-
-
+        tag: "Dig"
+      - name: "Mxtoolbox"
+        icon: "fa-solid fa-envelope"
+        keywords: "web domain dns"
+        url: "https://toolbox.googleapps.com/apps/dig/#ANY/"
+        tag: "DNS"
+   
   - name: "Entreprises"
     icon: "fa-solid fa-user-tie"
     items:
@@ -974,6 +997,12 @@ services:
         icon: "fa-solid fa-comment-dots"
         tag: "Morse"
         url: "https://morsecode.world/international/translator.html"
+      - name: "Maxi Code Scanner"
+        icon: "fa-solid fa-download"
+        keywords: "maxicode"
+        tag: "Maxicode"
+        url: "https://www.dynamsoft.com/barcode-reader/barcode-types/maxicode/"
+
         
   - name: "Telecom / Radio"
     icon: "fa-solid fa-signal"
@@ -1069,6 +1098,13 @@ services:
         keywords: "key pgp gpg"
         tag: "Key"
         url: "https://cirw.in/gpg-decoder"
+      - name: "Locked GPG"
+        icon: "fa-solid fa-key"
+        keywords: "key pgp gpg"
+        tag: "Key"
+        url: "https://lockedpgp.com/"
+
+
 
 
   - name: "Others"
@@ -1104,12 +1140,5 @@ services:
         keywords: "download p2p ip"
         tag: "Peer"
         url: "https://iknowwhatyoudownload.com/en/peer/"
-
-
-
-
-        
-
-
 
 
