@@ -1191,5 +1191,5 @@ services:
       - name: "Shortner.py"
         icon: "fa-solid fa-code"
         keywords: "Shortner"
-        tag: "shortner"
+        tag: "shortner script"
         url: "https://homerosint.kubow.ovh/assets/scripts/shortner.py"
