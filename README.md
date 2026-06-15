@@ -15,6 +15,6 @@
 # Script 
 ## Shortner
 
-Usage : python3 shortner.py $STRING
+Usage : python3 shortner.py string
 
-![shortner](img/sohrtner.png)
+![shortner](img/shortner.png)
