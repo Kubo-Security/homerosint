@@ -10,3 +10,11 @@
 
 ## Image 3
 ![Img example](img/example2.png)
+
+
+# Script 
+## Shortner
+
+Usage : python3 shortner.py $STRING
+
+![shortner](img/sohrtner.png)
