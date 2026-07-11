@@ -33,6 +33,7 @@ message:
       <p><strong>N°4</strong> : Toujours vérifier le texte alternatif (alt) des images </p>
       <p><strong>N°5</strong> : Utiliser .patch sur github pour trouver les adresses mails </p>
       <p><strong>N°6</strong> : Modifier la date dans les urls flightaware pour trouver des vols plus anciens (1300Z+5)</p>
+      <p><strong>N°7</strong> : Utiliser l'id Facebook pour trouver la marketplace /marketplace/profile/ID</p>
     </div>
 
 # Set the default layout and color scheme
@@ -146,6 +147,11 @@ services:
         tag: "Email"
         keywords: "email gmail tel telephone numtel"
         url: "https://epieos.com/"
+      - name: "Intelbase"
+        icon: "fa-solid fa-at"
+        tag: "Email"
+        keywords: "email gmail tel telephone numtel"
+        url: "https://intelbase.is/"
       - name: "GHunt"
         icon: "fa-solid fa-at"
         tag: "Email"
@@ -482,10 +488,23 @@ services:
         tag: "Map"
         keywords: "MapCode mapcode"
         url: "https://plus.codes/map"
+      - name: "Where 4"
+        icon: "fa-solid fa-globe"
+        tag: "Map"
+        url: "https://where4.eu/#robi-seme-neru-rodi"   
+      - name: "FixPhrase"
+        icon: "fa-solid fa-globe"
+        tag: "Map"
+        url: "https://fixphrase.com/#crawfish-manly-streak-unissued"    
       - name: "Overpass Turbo"
         icon: "fa-solid fa-globe"
         tag: "Map"
         url: "https://overpass-turbo.eu/"
+      - name: "Find That Spot"
+        icon: "fa-solid fa-globe"
+        tag: "Map"
+        keywords: "overpass"
+        url: "hhttps://www.findthatspot.io/"
       - name: "Kartaview"
         icon: "fa-solid fa-globe"
         tag: "Map"
@@ -672,13 +691,18 @@ services:
         keywords: "web domain dns"
         url: "https://securitytrails.com/app/auth/login?return=/list/keyword/sell%20it%20evil"
         tag: "DNS"
+      - name: "Dotdb"
+        icon: "fa-solid fa-server"
+        keywords: "web domain dns"
+        url: "https://dotdb.com/"
+        tag: "DNS"
       - name: "Spiderfoot"
         icon: "fa-solid fa-server"
         keywords: "web domain github"
         url: "https://github.com/smicallef/spiderfoot"
         tag: "Web"
       - name: "Hippie Cat"
-        icon: "fa-solid fa-user"
+        icon: "fa-solid fa-server"
         keywords: "web domain subdomain ip"
         tag: "Username"
         url: "https://osint.hippie.cat/"
@@ -731,6 +755,11 @@ services:
         keywords: "business societe siren siret"
         tag: "Entreprise"
         url: "https://opencorporates.com/"
+      - name: "Societe.com"
+        icon: "fa-solid fa-briefcase"
+        keywords: "business societe siren siret"
+        tag: "Entreprise"
+        url: "https://www.societe.com/"        
       - name: "Entreprise Europe"
         icon: "fa-solid fa-earth-europe"
         keywords: "business societe siren siret europe"
@@ -804,6 +833,12 @@ services:
         keywords: "archive france"
         tag: "Newspaper"
         url: "https://www.ina.fr/" 
+      - name: "Archiliste"
+        icon: "fa-solid fa-floppy-disk"
+        keywords: "archive france construction destruction travaux"
+        tag: "Travaux"
+        url: "https://www.archiliste.fr/permis-de-construire" 
+
 
 
 
@@ -840,6 +875,11 @@ services:
         keywords: "voiture collection immatriculation spot"
         tag: "Immatriculation"
         url: "https://www.autogespot.com/"  
+      - name: "Datation immatriculation"
+        icon: "fa-solid fa-car"
+        keywords: "voiture immatriculation"
+        tag: "Immatriculation"
+        url: "https://www.pieces-auto-collection.fr/Datation_plaque_mineralogique.htm/"  
       - name: "Vehicle Osint Collection"
         icon: "fa-solid fa-car"
         keywords: "voiture volées stolen immatriculation VIN vin"
@@ -875,6 +915,18 @@ services:
         tag: "Boat"
         keywords: "boat bateau ship"
         url: "https://www.vesselfinder.com/"
+      - name: "Global Fishing Watch"
+        icon: "fa-solid fa-anchor"
+        tag: "Boat"
+        keywords: "boat bateau ship"
+        url: "https://globalfishingwatch.org/map/"
+      - name: "AIS Decoder"
+        icon: "fa-solid fa-anchor"
+        tag: "Boat"
+        keywords: "boat bateau ship ais vdm vdo"
+        url: "https://www.maritec.co.za/aisvdmvdodecoding"
+
+        
       - name: "Military Ship"
         icon: "fa-solid fa-anchor"
         tag: "Boat"
@@ -1003,9 +1055,6 @@ services:
         tag: "Youtube"
         url: "https://mattw.io/youtube-metadata/"
 
-
-
-
   - name: "Stegano / Encoding"
     icon: "fa-solid fa-user-secret"
     items: 
@@ -1048,6 +1097,13 @@ services:
         keywords: "maxicode"
         tag: "Maxicode"
         url: "https://www.dynamsoft.com/barcode-reader/barcode-types/maxicode/"
+      - name: "RDS Surveyor"
+        icon: "fa-solid fa-radio"
+        keywords: "rds radio"
+        tag: "Maxicode"
+        url: "https://rds-surveyor-app.jacquet.xyz/"
+
+        
 
         
   - name: "Telecom / Radio"
@@ -1183,6 +1239,12 @@ services:
         keywords: "download p2p ip"
         tag: "Peer"
         url: "https://iknowwhatyoudownload.com/en/peer/"
+      - name: "Aha Music"
+        icon: "fa-solid fa-music"
+        keywords: "song"
+        tag: "Son"
+        url: "https://aha-music.com/upload"
+        
 
 
   - name: "Scripts"
@@ -1190,6 +1252,26 @@ services:
     items:
       - name: "Shortner.py"
         icon: "fa-solid fa-code"
-        keywords: "Shortner"
-        tag: "shortner script"
+        keywords: "shortner script"
+        tag: "Shortner"
         url: "https://homerosint.kubow.ovh/assets/scripts/shortner.py"
+
+
+  - name: "ToolBoxes"
+    icon: "fa-solid fa-toolbox"
+    items:
+      - name: "Osint4All"
+        icon: "fa-solid fa-toolbox"
+        keywords: "start.me toolbox"
+        tag: "Toolbox"
+        url: "https://start.me/p/L1rEYQ/osint4all"
+      - name: "Hack'olyte"
+        icon: "fa-solid fa-toolbox"
+        keywords: "start.me toolbox"
+        tag: "Toolbox"
+        url: "https://start.me/p/gyl2By/hack-olyte"
+      - name: "Oscar Zulu"
+        icon: "fa-solid fa-toolbox"
+        keywords: "oscar zulu toolbox"
+        tag: "Toolbox"
+        url: "https://oscarzulu.org/toolbox/"
