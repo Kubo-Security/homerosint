@@ -839,9 +839,6 @@ services:
         tag: "Travaux"
         url: "https://www.archiliste.fr/permis-de-construire" 
 
-
-
-
   - name: "Transports"
     icon: "fa-solid fa-truck-plane"
     items:
@@ -1103,9 +1100,6 @@ services:
         tag: "Maxicode"
         url: "https://rds-surveyor-app.jacquet.xyz/"
 
-        
-
-        
   - name: "Telecom / Radio"
     icon: "fa-solid fa-signal"
     items:
@@ -1244,8 +1238,6 @@ services:
         keywords: "song"
         tag: "Son"
         url: "https://aha-music.com/upload"
-        
-
 
   - name: "Scripts"
     icon: "fa-solid fa-code"
