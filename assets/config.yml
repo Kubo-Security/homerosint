@@ -162,7 +162,12 @@ services:
         tag: "Email"
         keywords: "email linkedin"
         url: "https://mailmeteor.com/tools/linkedin-email-finder"
-
+      - name: "Email Osint"
+        icon: "fa-solid fa-at"
+        keywords: "email"
+        tag: "Email"
+        url: "https://emailosint.org/"
+        
   - name: "Reseaux sociaux"
     icon: "fa-solid fa-user"
     items:
@@ -331,6 +336,11 @@ services:
         tag: "Forum"
         keywords: "fofo"
         url: "https://www.reddit.com/"
+      - name: "Rosint"
+        icon: "fa-brands fa-reddit"
+        tag: "Reddit"
+        keywords: "fofo reddit rosint"
+        url: "https://www.rosint.dev/"
       - name: "Reveddit"
         icon: "fa-brands fa-reddit"
         keywords: "reddit archive"
@@ -716,6 +726,17 @@ services:
         keywords: "web domain dns"
         url: "https://toolbox.googleapps.com/apps/dig/#ANY/"
         tag: "DNS"
+      - name: "Hostedscan"
+        icon: "fa-solid fa-envelope"
+        keywords: "web domain dns spf dkim dmarc"
+        url: "https://hostedscan.com/spf-dkim-dmarc-security-tool"
+        tag: "DKIM"
+      - name: "Favihash"
+        icon: "fa-solid fa-icons"
+        keywords: "favicon hash"
+        url: "https://www.favihash.com/"
+        tag: "Favicon"
+        
    
   - name: "Entreprises"
     icon: "fa-solid fa-user-tie"
